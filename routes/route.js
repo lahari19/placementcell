@@ -37,9 +37,7 @@ route.post("/login", (req, res) => {
 route.get("/facilities", (req, res) => {
   res.render("facilities");
 });
-route.get("/faq", (req, res) => {
-  res.render("faq");
-});
+
 route.get("/demographic", (req, res) => {
   res.render("demographic");
 });
@@ -65,14 +63,11 @@ route.get("/notFound", (req, res) => {
   res.render("notFound");
 });
 
-// route for faq
-route.get("/faq", (req, res) => {
-  res.render("faq");
-});
+
 
 // route for placement schedule
-route.get("/placementSchedule", (req, res) => {
-  res.render("underConstruction");
+route.get("/schedule_and_faq", (req, res) => {
+  res.render("schedule_and_faq");
 });
 
 module.exports = route;

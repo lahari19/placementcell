@@ -4,8 +4,20 @@ li{
     text-justify: inter-word;
     font-size: 1.5rem;
     padding: 0.4rem 1rem 0.5rem 3rem;
-    color: rgb(0, 0,0);
+    /* color: rgb(0, 0,0); */
     font-family: 'Inter', sans-serif;
+}
+.scheduleBlock{
+
+  margin-left: 20vh;
+  margin-right: 6vw;
+  margin-top: 2.5vh;
+  margin-bottom: 4vw;
+  width: 1285px;
+  text-align: center;
+ 
+  box-shadow: 0 5px 5px #ccc;
+
 }
 .block{
   margin-left: 20vh;
@@ -19,6 +31,11 @@ li{
 
   /*margin-top: 4vh;
   margin-bottom: 10vh; */
+}
+
+.tableHeading{
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  
 }
 .block_h{
   padding-left: 20vh;

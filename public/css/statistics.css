@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Inter', sans-serif !important;
 }
 
 
@@ -17,16 +20,16 @@ body {
 }
 
 .outer-1 {
-  background: conic-gradient(white 3%, #00FFE0 47%, rgba(5,0,255,0.8) 120%, white 30%);
+  background: conic-gradient(white 3%, #00FFE0 90deg 47%, rgba(5,0,255,0.8) 120%, white 30%);
 
 }
 
 .outer-2 {
-  background: conic-gradient(white 12%,#00FFE0 47%, rgba(5, 0, 255,0.8) 120%, white 30%);
+  background: conic-gradient(white 12%,#00FFE0 90deg 47%, rgba(5, 0, 255,0.8) 120%, white 30%);
 }
 
 .outer-3 {
-  background: conic-gradient(white 26%, #00FFE0 47%,rgba(5, 0, 255,0.8) 120%, white 30%);
+  background: conic-gradient(white 26%, #00FFE0 90deg 47%,rgba(5, 0, 255,0.8) 120%, white 30%);
 }
 
 .inner {
@@ -50,4 +53,8 @@ body {
   border-radius: 0;
   /* width: 300px;
     height: 250px; */
+}
+
+.text-1 {
+  font-size: larger;
 }
